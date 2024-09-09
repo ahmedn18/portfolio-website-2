@@ -155,6 +155,15 @@ header, nav, section, footer {
     padding: 0;
 }
 
+#skillsList li {
+    margin-bottom: 15px; /* Add space between each skill item */
+}
+
+.skill-name {
+    display: block; /* Change to block to put the name above the bar */
+    margin-bottom: 5px; /* Add space between the name and the bar */
+}
+
 .skill-bar {
     width: 100%;
     background-color: #444;
@@ -165,9 +174,4 @@ header, nav, section, footer {
 .skill-level {
     height: 100%;
     background-color: #00FF00;
-}
-
-.skill-name {
-    display: inline-block;
-    margin-bottom: 5px;
 }
