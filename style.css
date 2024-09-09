@@ -142,8 +142,24 @@ header, nav, section, footer {
     transform: scale(1.2);
 }
 
+#skillsList {
+    list-style-type: none;
+    padding: 0;
+}
 
+.skill-bar {
+    width: 100%;
+    background-color: #444;
+    height: 20px;
+    margin-top: 5px;
+}
 
-.social-icons a:hover svg {
-    filter: drop-shadow(0 0 12px #00FF00);
+.skill-level {
+    height: 100%;
+    background-color: #00FF00;
+}
+
+.skill-name {
+    display: inline-block;
+    margin-bottom: 5px;
 }
