@@ -91,3 +91,40 @@ header, nav, section, footer {
         font-size: 1.3em;
     }
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons svg {
+    width: 32px;
+    height: 32px;
+}
+
+.tools-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tools-icons svg {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.3s ease;
+}
+
+.tools-icons svg:hover {
+    transform: scale(1.2);
+}
