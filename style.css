@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: local('Fixedsys'),
+         url('path/to/fixedsys.woff2') format('woff2'),
+         url('path/to/fixedsys.woff') format('woff');
+    font-display: swap;
+}
+
 body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Fixedsys', 'Courier New', monospace;
     background-color: #000f00; /* Darker background */
     color: #00FF00;
     line-height: 1.6;
